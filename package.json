@@ -12,7 +12,7 @@
   "main": "a1.js",
   "devDependencies": {},
   "scripts": {
-    "start": "babel a2.js -d target -w",
+    "babel:watch": "babel -w -d target",
     "test": "nodemon express/test",
     "server": "nodemon express/app"
   },
