@@ -15,8 +15,9 @@ node target/a.js
 
 **Developing for rendering react component on the server:**
 
+From `package.json` file:
+
 ```json
-// from package.json
 "babel:watch": "babel -w -d target",
 "test": "nodemon express/test",
 "server": "nodemon express/app"
