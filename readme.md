@@ -8,3 +8,7 @@ Run below command:
 npx babel a.js -d target/
 node target/a.js
 ```
+
+## Other resources:
+
+- https://reactjs.org/docs/react-dom-server.html
