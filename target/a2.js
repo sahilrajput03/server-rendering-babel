@@ -1,9 +1,7 @@
 const React = require("react");
 const ReactDOMServer = require("react-dom/server");
 
-const cars = [{ id: 1, name: "Ford" }, { id: 2, name: "Audi" }, { id: 3, name: "BMW" }];
-
-const Car = () => {
+const Car = ({ cars }) => {
   return React.createElement(
     "div",
     null,
@@ -20,4 +18,4 @@ const Car = () => {
   );
 };
 
-console.log(ReactDOMServer.renderToString(React.createElement(Car, null)));
+module.exports = cars => ReactDOMServer.renderToString(React.createElement(Car, { cars: cars }));

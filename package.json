@@ -5,5 +5,26 @@
     "babel-preset-react": "^6.24.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "name": "server-rendering-babel",
+  "description": "Source: https://stackoverflow.com/a/43111885/10012446",
+  "version": "1.0.0",
+  "main": "a1.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "babel a2.js -d target -w",
+    "test": "nodemon express/test",
+    "server": "nodemon express/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilrajput03/server-rendering-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilrajput03/server-rendering-babel/issues"
+  },
+  "homepage": "https://github.com/sahilrajput03/server-rendering-babel#readme"
 }
