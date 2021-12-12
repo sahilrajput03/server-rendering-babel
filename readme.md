@@ -24,7 +24,7 @@ node target/a.js
 
 So via command
 
-- `npm run babel:watch a2.js`: We can watch over file a2.js and all the jsx will be compilerd to javascript.
+- `npm run babel:watch C2.js`: We can watch over file `C2.js` and all the jsx in it will be compilerd to javascript.
 
 - `npm run test`: With this command I intend to test out compilerd javascript by simply importing that file in differen file.
 

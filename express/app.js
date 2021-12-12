@@ -4,7 +4,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", function (req, res) {
-  const html = require("../target/a2");
+  const html = require("../target/C2");
 
   // fetching some data from database.
   const cars = [

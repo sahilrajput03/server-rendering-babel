@@ -1,4 +1,4 @@
-const html = require("../target/a2");
+const html = require("../target/C2");
 
 const cars = [
   { id: 1, name: "Ford" },
